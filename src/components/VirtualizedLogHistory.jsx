@@ -1,6 +1,5 @@
 import React, { useState, useMemo } from 'react'
 import { useSelector } from 'react-redux'
-import { FixedSizeList as List } from 'react-window'
 import { buildRegex, highlightMatches } from '../utils/regexUtils.js'
 import { Database, Search } from 'lucide-react'
 
@@ -86,9 +85,9 @@ export default function VirtualizedLogHistory() {
         {filtered.length === 0 ? (
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', color: 'var(--text-muted)', fontSize: 12 }}>No logs match current filters</div>
         ) : (
-          <List height={300} itemCount={filtered.length} itemSize={ROW_HEIGHT} width="100%" style={{ flex: 1 }}>
+          <div style={{ height: '100%', width: '100%' }}>
             {Row}
-          </List>
+          </div>
         )}
       </div>
       <style>{`.virt-row:hover { background: var(--bg-hover); }`}</style>
