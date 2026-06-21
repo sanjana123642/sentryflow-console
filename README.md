@@ -38,18 +38,7 @@ https://github.com/sanjana123642/sentryflow-console
   
 ## Screenshots
 
-### Dashboard Overview
-
-![Dashboard Overview](assets/Screenshot%202026-06-21%20at%2011.12.30%20AM.png)
-
-
-### Error Analytics
-
-![Error Analytics](assets/Screenshot%202026-06-21%20at%2011.12.49%20AM.png)
-
-### Server Monitoring
-
-![Server Monitoring](assets/Screenshot%202026-06-21%20at%2011.13.07%20AM.png)
+https://github.com/sanjana123642/sentryflow-console/tree/main/assets
 
 
 
